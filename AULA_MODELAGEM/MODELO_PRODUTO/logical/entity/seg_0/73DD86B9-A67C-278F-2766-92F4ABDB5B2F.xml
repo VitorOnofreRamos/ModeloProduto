@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="73DD86B9-A67C-278F-2766-92F4ABDB5B2F" name="CIDADE">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-10-09 11:22:03 UTC</createdTime>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<engineerTo>
+<item key="7CADDBB7-092B-5BE8-3CC1-9BCBB67E4260" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="35A48DC5-BB13-CD23-2E43-17B7CD8D28FC">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-10-09 11:22:07 UTC</createdTime>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<engineerTo>
+<item key="7CADDBB7-092B-5BE8-3CC1-9BCBB67E4260" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<ownDataTypeParameters>,50,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRICAO" id="E6CB6830-B701-AEB7-45DD-77EB3D68AF2C">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-10-09 11:22:18 UTC</createdTime>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<engineerTo>
+<item key="7CADDBB7-092B-5BE8-3CC1-9BCBB67E4260" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ESTADO" id="2BEFAE27-7FC5-D87F-9D3C-D3249B57ABD6">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-10-09 11:22:49 UTC</createdTime>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<engineerTo>
+<item key="7CADDBB7-092B-5BE8-3CC1-9BCBB67E4260" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="4E49C77C-2AEA-A51B-93DC-5F5291110571">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-10-09 11:26:52 UTC</createdTime>
+<generatorID>90A66EED-8057-6FE1-50A0-9A573D123AF2</generatorID>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<engineerTo>
+<item key="7CADDBB7-092B-5BE8-3CC1-9BCBB67E4260" value="true"/>
+</engineerTo>
+<referedAttribute>FCE551EE-93B1-C125-1A82-D135A9F974A7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0B667819-5339-CD06-5252-60E149392768" name="ESTADO PK">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-10-09 11:22:17 UTC</createdTime>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<engineerTo>
+<item key="7CADDBB7-092B-5BE8-3CC1-9BCBB67E4260" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>35A48DC5-BB13-CD23-2E43-17B7CD8D28FC</attributeRef>
+<attributeRef>E6CB6830-B701-AEB7-45DD-77EB3D68AF2C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

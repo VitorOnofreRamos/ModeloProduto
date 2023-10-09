@@ -1,0 +1,165 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8281FB6B-1702-FE13-760B-50E2A17BF4DA" name="FUNCIONARIO">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-10-09 11:27:16 UTC</createdTime>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<engineerTo>
+<item key="7CADDBB7-092B-5BE8-3CC1-9BCBB67E4260" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="1D5766F1-50BB-D36B-85B1-0BFD50ADB3C8">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-10-09 11:27:22 UTC</createdTime>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<engineerTo>
+<item key="7CADDBB7-092B-5BE8-3CC1-9BCBB67E4260" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME" id="8D42F226-46F2-6E28-6B31-D4F57DB9958C">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-10-09 11:27:35 UTC</createdTime>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<engineerTo>
+<item key="7CADDBB7-092B-5BE8-3CC1-9BCBB67E4260" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA_NASC" id="F3E84A34-99A0-3268-AA6E-DBAF2CCA0419">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-10-09 11:27:48 UTC</createdTime>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<engineerTo>
+<item key="7CADDBB7-092B-5BE8-3CC1-9BCBB67E4260" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_DEPARTAMENTO" id="E0E6C6B2-78B3-41B3-5F0B-DEEDE25100A9">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-10-09 11:28:02 UTC</createdTime>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<engineerTo>
+<item key="7CADDBB7-092B-5BE8-3CC1-9BCBB67E4260" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CARGO" id="F0BA45B7-EA2B-7673-B910-46327031C578">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-10-09 11:28:13 UTC</createdTime>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<engineerTo>
+<item key="7CADDBB7-092B-5BE8-3CC1-9BCBB67E4260" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_DEPARTAMENTO_2" id="D3549749-9820-2218-AED2-3DFB3496207F">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-10-09 11:28:45 UTC</createdTime>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<engineerTo>
+<item key="7CADDBB7-092B-5BE8-3CC1-9BCBB67E4260" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SALARIO" id="393E00F0-705F-CDDA-9C6D-FBBF5351D45F">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-10-09 11:29:03 UTC</createdTime>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<engineerTo>
+<item key="7CADDBB7-092B-5BE8-3CC1-9BCBB67E4260" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="5926E11B-463D-F632-96AF-275D255DC5E4">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-10-09 11:30:42 UTC</createdTime>
+<generatorID>461A24CE-7E77-F2E5-402A-B0D834A6F696</generatorID>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<engineerTo>
+<item key="7CADDBB7-092B-5BE8-3CC1-9BCBB67E4260" value="true"/>
+</engineerTo>
+<referedAttribute>9E58CD04-CEF6-672C-2BE6-370824FDF912</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="FA733140-EE6A-F0EC-BC40-853ED5702D4C">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-10-09 11:30:45 UTC</createdTime>
+<generatorID>6EDFD3C8-6B90-D297-0E33-75D22034F516</generatorID>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<engineerTo>
+<item key="7CADDBB7-092B-5BE8-3CC1-9BCBB67E4260" value="true"/>
+</engineerTo>
+<referedAttribute>38A3AC81-87BB-7F6C-B877-34997CAD7C2F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA_CONTRAT" id="DC1040F6-7F14-8E83-F216-027C9152595D">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-10-09 11:42:06 UTC</createdTime>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<engineerTo>
+<item key="7CADDBB7-092B-5BE8-3CC1-9BCBB67E4260" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AE81CDE1-19AF-AD41-F5DC-CF5EF0C463EA" name="FUNCIONARIO PK">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2023-10-09 11:29:23 UTC</createdTime>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<engineerTo>
+<item key="7CADDBB7-092B-5BE8-3CC1-9BCBB67E4260" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1D5766F1-50BB-D36B-85B1-0BFD50ADB3C8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
