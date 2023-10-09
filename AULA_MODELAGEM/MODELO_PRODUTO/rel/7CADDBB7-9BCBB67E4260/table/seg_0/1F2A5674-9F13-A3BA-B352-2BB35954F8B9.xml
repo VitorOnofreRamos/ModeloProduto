@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F2A5674-9F13-A3BA-B352-2BB35954F8B9" name="CIDADE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 12:24:22 UTC</createdTime>
+<generatorID>73DD86B9-A67C-278F-2766-92F4ABDB5B2F</generatorID>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="F4F62770-E516-17D2-C4BC-46829A5CDD48">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 12:24:22 UTC</createdTime>
+<generatorID>35A48DC5-BB13-CD23-2E43-17B7CD8D28FC</generatorID>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<ownDataTypeParameters>,50,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRICAO" id="0C2E1232-BF76-634B-DFC9-571F1C50F973">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 12:24:22 UTC</createdTime>
+<generatorID>E6CB6830-B701-AEB7-45DD-77EB3D68AF2C</generatorID>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ESTADO" id="0B0C1784-5B26-41E8-6AFC-617120A18196">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 12:24:22 UTC</createdTime>
+<generatorID>2BEFAE27-7FC5-D87F-9D3C-D3249B57ABD6</generatorID>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO_ID" id="2272BF6B-0C01-1FB2-B531-2F69720136C8">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 12:24:22 UTC</createdTime>
+<generatorID>4E49C77C-2AEA-A51B-93DC-5F5291110571</generatorID>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22AE20C0-7CAF-52C7-55E7-41E33AAAD87B" referredColumn="A09CFDF2-E1E6-2EDC-1FCE-0963E2FA85C7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A981A28B-47E2-06D8-5E71-093E9A99D215" name="CIDADE_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 12:24:22 UTC</createdTime>
+<generatorID>0B667819-5339-CD06-5252-60E149392768</generatorID>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4F62770-E516-17D2-C4BC-46829A5CDD48"/>
+<colUsage columnID="0C2E1232-BF76-634B-DFC9-571F1C50F973"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="394FCE57-F39F-1509-3984-0DF1D604DBAA" name="CIDADE__IDX">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 12:24:22 UTC</createdTime>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>90A66EED-8057-6FE1-50A0-9A573D123AF2</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="2272BF6B-0C01-1FB2-B531-2F69720136C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47C07597-16B6-2320-B6D1-4A3FDA5E3613" name="CIDADE_ESTADO_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 12:24:22 UTC</createdTime>
+<generatorID>90A66EED-8057-6FE1-50A0-9A573D123AF2</generatorID>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2272BF6B-0C01-1FB2-B531-2F69720136C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

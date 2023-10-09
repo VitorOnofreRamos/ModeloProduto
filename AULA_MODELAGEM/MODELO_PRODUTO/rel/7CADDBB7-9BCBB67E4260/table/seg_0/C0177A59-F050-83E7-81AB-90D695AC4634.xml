@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0177A59-F050-83E7-81AB-90D695AC4634" name="ESTADO_CIVIL">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 12:24:22 UTC</createdTime>
+<generatorID>3DD50CFB-30A3-647B-6C1B-A905CCE50F2E</generatorID>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="6E6001B4-91A1-AB2D-0257-B2575B0E9E60">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 12:24:22 UTC</createdTime>
+<generatorID>D74DC3C1-07EC-70CC-677A-F4AE167A27B3</generatorID>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRICAO" id="47243732-290A-2A47-CC03-DEED5D47FA28">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 12:24:22 UTC</createdTime>
+<generatorID>6C7C28BD-352B-AC18-0965-92EE3D270184</generatorID>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO_CIVIL_ID" id="A5C74F6B-108F-AA37-270D-A74AF21EEADB">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 12:24:22 UTC</createdTime>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="23A6E504-E496-5197-0ED0-3089BB61DC83" name="ESTADO_CIVIL_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 12:24:22 UTC</createdTime>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="A5C74F6B-108F-AA37-270D-A74AF21EEADB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

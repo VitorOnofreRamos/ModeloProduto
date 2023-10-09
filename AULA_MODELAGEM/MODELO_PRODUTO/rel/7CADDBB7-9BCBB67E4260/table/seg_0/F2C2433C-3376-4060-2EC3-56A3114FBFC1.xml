@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F2C2433C-3376-4060-2EC3-56A3114FBFC1" name="Relation_16">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 12:24:22 UTC</createdTime>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRODUTO_ID" id="D27C6E23-62F8-0225-3B8C-45C7CC8D4FD4">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 12:24:22 UTC</createdTime>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="398178BB-94F4-1069-6592-00DD1FD33488" referredColumn="E8D798AE-ECC9-D856-AB1E-DABCB501559F"/>
+</associations>
+</Column>
+<Column name="ITEM_VENDA_ITEM_VENDA_ID" id="7D023035-CF4F-8565-1CC1-CF09A39678CE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 12:24:22 UTC</createdTime>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95930684-1834-DBBE-6946-6F862736D316" referredColumn="BA997628-94E6-74CD-5A6A-0842370BFD63"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4C720012-B695-0DC1-61A2-7DC3BFDA4DB7" name="Relation_16_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 12:24:22 UTC</createdTime>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D27C6E23-62F8-0225-3B8C-45C7CC8D4FD4"/>
+<colUsage columnID="7D023035-CF4F-8565-1CC1-CF09A39678CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6CC2C29F-ADF2-26AE-895E-A374EECFE2D9" name="Relation_16_PRODUTO_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 12:24:22 UTC</createdTime>
+<generatorID>DECDBDCC-0E64-1D68-947A-982965203837</generatorID>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D27C6E23-62F8-0225-3B8C-45C7CC8D4FD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E2D1773-20E4-2A05-AFD1-34D98A2AEE81" name="Relation_16_ITEM_VENDA_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 12:24:22 UTC</createdTime>
+<generatorID>DECDBDCC-0E64-1D68-947A-982965203837</generatorID>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D023035-CF4F-8565-1CC1-CF09A39678CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

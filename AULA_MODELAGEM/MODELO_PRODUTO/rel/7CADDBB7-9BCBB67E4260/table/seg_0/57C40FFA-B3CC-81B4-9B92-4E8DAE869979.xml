@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57C40FFA-B3CC-81B4-9B92-4E8DAE869979" name="ESTADO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 12:24:22 UTC</createdTime>
+<generatorID>DAC96947-A72F-EBD7-C5DE-3855913793FD</generatorID>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="A09CFDF2-E1E6-2EDC-1FCE-0963E2FA85C7">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 12:24:22 UTC</createdTime>
+<generatorID>FCE551EE-93B1-C125-1A82-D135A9F974A7</generatorID>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRICAO" id="B40A0F81-37E1-40BF-F4D9-766D50C3F0CE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 12:24:22 UTC</createdTime>
+<generatorID>5ABED82A-4144-27A1-FFAE-B673BCAD56A4</generatorID>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PAIS" id="23C110CD-1EC0-68B3-9C19-CB157569FC7C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 12:24:22 UTC</createdTime>
+<generatorID>04CE96A0-809E-7189-DC45-F6A06F0EC21F</generatorID>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAIS_ID" id="511D2D49-2076-678F-64F3-AB7CD8D7731A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 12:24:22 UTC</createdTime>
+<generatorID>9B4BEC9E-2BB4-0989-3C34-89A8D5CD2480</generatorID>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B212CF5B-2DE5-76D7-10FA-0FE804B774A3" referredColumn="A9FAB2F9-CF45-3FBE-AEC2-FDF8A1F0D737"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0DDC72D7-3AE4-FEB5-3F0A-F6AE5F165B01" name="ESTADO_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 12:24:22 UTC</createdTime>
+<generatorID>AB1D3C3F-A609-0A31-B308-40A3542D38AC</generatorID>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A09CFDF2-E1E6-2EDC-1FCE-0963E2FA85C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34800032-13A0-58ED-2CAD-6C011F6FB77E" name="ESTADO__IDX">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 12:24:22 UTC</createdTime>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B2D11808-0F00-06CF-EEDE-7AC8B84B6661</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="511D2D49-2076-678F-64F3-AB7CD8D7731A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0DE6196E-65B5-CE84-073A-7A3EB1CE543F" name="ESTADO_PAIS_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 12:24:22 UTC</createdTime>
+<generatorID>B2D11808-0F00-06CF-EEDE-7AC8B84B6661</generatorID>
+<ownerDesignName>MODELO_PRODUTO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="511D2D49-2076-678F-64F3-AB7CD8D7731A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
